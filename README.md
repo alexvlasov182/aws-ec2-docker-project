@@ -19,6 +19,7 @@ ssh -i my-key.pem ubuntu@<Public_IP>
 ![Instance](screenshots/instance-settings.png)
 ![Instance](screenshots/instance-settings-2.png)
 ![Instance](screenshots/instances.png)
+![Inboundsrules](screenshots/inboundsrules.png)
 
 ## 3. Install Docker & Docker Compose
 sudo apt update
