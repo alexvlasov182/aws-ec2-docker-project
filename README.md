@@ -52,4 +52,6 @@ docker ps
 ![Nginx running](screenshots/nginx.png)
 
 ## 7. Optional monitoring: CloudWatch dashboard
+![Nginx running](screenshots/cloudmetrics.png)
+
 ## 8. Screenshots for documentation: see /screenshots folder.
