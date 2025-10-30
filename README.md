@@ -16,6 +16,9 @@ This project demonstrates creating a fully working AWS EC2 instance with a conta
 ```bash
 ssh -i my-key.pem ubuntu@<Public_IP>
 ```
+![Instance](screenshots/instances.png)
+![Instance](screenshots/instance-settings.png)
+![Instance](screenshots/instance-settings-2.png)
 
 ## 3. Install Docker & Docker Compose
 sudo apt update
@@ -52,6 +55,6 @@ docker ps
 ![Nginx running](screenshots/nginx.png)
 
 ## 7. Optional monitoring: CloudWatch dashboard
-![Nginx running](screenshots/cloudmetrics.png)
+![CloudWatch](screenshots/cloudmetrics.png)
 
 ## 8. Screenshots for documentation: see /screenshots folder.
