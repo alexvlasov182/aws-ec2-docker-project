@@ -1,0 +1,21 @@
+# SSH / AWS keys
+*.pem
+
+# Docker
+.env
+**/pgdata/
+*.log
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
