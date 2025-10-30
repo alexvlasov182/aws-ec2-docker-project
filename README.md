@@ -49,5 +49,7 @@ docker-compose up -d
 docker ps
 ```
 ## 6. Check in browser: http://<Public_IP> -> Nginx page.
+![Nginx running](screenshots/nginx.png)
+
 ## 7. Optional monitoring: CloudWatch dashboard
 ## 8. Screenshots for documentation: see /screenshots folder.
