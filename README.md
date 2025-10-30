@@ -16,15 +16,18 @@ This project demonstrates creating a fully working AWS EC2 instance with a conta
 ```bash
 ssh -i my-key.pem ubuntu@<Public_IP>
 ```
-![Instance](screenshots/instances.png)
 ![Instance](screenshots/instance-settings.png)
 ![Instance](screenshots/instance-settings-2.png)
+![Instance](screenshots/instances.png)
 
 ## 3. Install Docker & Docker Compose
 sudo apt update
 sudo apt install -y docker.io docker-compose
 sudo systemctl enable --now docker
 sudo usermod -aG docker ubuntu
+![Docker](screenshots/docker.png)
+![Docker Stats](screenshots/docker-stats.png)
+![PostgreSQL](screenshots/postgresql.png)
 
 ## 4. Create docker-compose.yml
 ```yaml
@@ -51,6 +54,9 @@ volumes:
 docker-compose up -d
 docker ps
 ```
+![Curl Machine](screenshots/curl-local-machine.png)
+![Curl AWS](screenshots/curl-aws-machine.png)
+
 ## 6. Check in browser: http://<Public_IP> -> Nginx page.
 ![Nginx running](screenshots/nginx.png)
 
