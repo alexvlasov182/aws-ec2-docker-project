@@ -22,10 +22,12 @@ ssh -i my-key.pem ubuntu@<Public_IP>
 ![Inboundsrules](screenshots/inboundsrules.png)
 
 ## 3. Install Docker & Docker Compose
+```bash
 sudo apt update
 sudo apt install -y docker.io docker-compose
 sudo systemctl enable --now docker
 sudo usermod -aG docker ubuntu
+```
 ![Docker](screenshots/docker.png)
 ![Docker Stats](screenshots/docker-stats.png)
 ![PostgreSQL](screenshots/postgresql.png)
